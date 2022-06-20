@@ -1,5 +1,8 @@
 # Peptide in TFE/water mixture
 
+- These commands are compiled in the file 'command.sh';
+- Additional files are annexed in this folder;
+
 ##### Choosing force field while processing the protein coordinates
 `gmx pdb2gmx -f peptide.pdb -o processed.gro -water spce -ignh -ter`
 
