@@ -1,4 +1,4 @@
-title                   = OPLS Lysozyme NVT equilibration 
+title                   = peptide in TFE
 define                  = -DPOSRES  ; position restrain the protein
 ; Run parameters
 integrator              = md        ; leap-frog integrator
