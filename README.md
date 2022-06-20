@@ -1,2 +1,4 @@
 # md-gmx-peptide
-Commands for peptide in water/TFE mixture MD simulation
+Commands for peptide's gromacs simulations in different conditions:
+
+- TFE/water mixture;
