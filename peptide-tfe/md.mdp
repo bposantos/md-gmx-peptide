@@ -1,4 +1,4 @@
-title                   = OPLS Lysozyme NPT equilibration 
+title                   = peptide in TFE
 ; Run parameters
 integrator              = md        ; leap-frog integrator
 nsteps                  = 250000000  ; 2 * 500000 = 1000 ps (1 ns)
