@@ -15,6 +15,14 @@
 ##### Insert the ions to neutralize the box. In this case, one chlorine.
 `gmx insert-molecules -f system.gro -ci CLA.gro -nmol 1 -o system_ion.gro`
 
+##### Add the missing informations in topol.top
+`#include gromos54a7_atb.ff/TFE.itp`
+
+At the end of the file (customize to your needs):
+```
+TFE 417
+CL    1
+```
 ##### Solvate the box with water molecules
 `gmx solvate -cp system_ion.gro -cs spc216.gro -o system_ion_solv.gro -p topol.top`
 
