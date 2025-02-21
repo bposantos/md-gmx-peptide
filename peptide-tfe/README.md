@@ -1,4 +1,4 @@
-# Peptide in TFE/water mixture
+# Peptide in TFE/water mixture (GROMOS54A7)
 
 - These commands are compiled in the file 'command.sh';
 - Additional files are annexed in this folder;
